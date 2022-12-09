@@ -1,0 +1,85 @@
+.contenido {
+  text-align: justify;
+
+  margin: 5rem 0;
+  border-radius: 2rem;
+
+  h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.descripcion {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-items: center;
+  justify-items: center;
+
+  @include tabletL {
+    .descripcion-contenido {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .descripcion-servicio {
+      -webkit-box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-left: -15%;
+      margin-top: 10rem;
+      background-color: $blanco;
+      margin-right: 2rem;
+    }
+  }
+  img {
+    border-radius: 2rem;
+  }
+}
+
+.volver {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $negro;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.lista {
+  list-style: none;
+  &:before {
+    content: "✔";
+    color: #15abb6;
+    display: inline-block;
+    width: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+  a{
+    color: $negro;
+    text-decoration:underline;
+  }
+}
+.precio {
+  color: #15abb6;
+  font-size: 6rem;
+  font-weight: 600;
+  span {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+}
+hr {
+  background-color: black;
+  width: 14rem;
+  height: 0.3rem;
+}
+.flecha {
+  img {
+    padding: 0.5rem;
+    max-width: 5rem;
+  }
+}
+.negrita {
+  font-weight: 800;
+}
