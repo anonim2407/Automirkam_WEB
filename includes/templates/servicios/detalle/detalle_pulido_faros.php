@@ -32,23 +32,21 @@
                     </div>
 
                     <div class="descripcion-servicio">
-                        <H2>Pulido de faros</H2>
+                        <H2>Restauración de faros</H2>
                         <hr>
-                        <p>Este servicio ofrece un lavado exterior, donde no hace falta pedir cita previa.
-                            Por los servicios que se ofrecen se ha deseñado un precio muy económico en el qual
-                            nos centramos en limpiar su coche cuidadosamente y dejarlo lo mas limpio
-                            y brillante posible tanto por fuera como por dentro</p>
+                        <p>Nuevo proceso de restauración de faros con <span class="negrita">polímetro evaporado.</span> 
+                            La restauración de faros basado en un polímero líquido vaporizado.
+                            Se trata de un sistema que permite devolver la transparencia y el
+                            brillo a los faros quemados por el sol de forma rápida y económica.</p>
+                        <p>El nuevo proceso de restasuración ofrece a los faros un mejor acabado
+                            final y una reducción de tiempo en el proceso de pulido. Además, el polímero
+                            protege el policarbonato del faro frente a la radiación solar ultravioleta.
+                            Está especialmente indicado para restaurar las superficies amarillentas,
+                            matizadas o con arañazos en la capa externa de los faros de policarbonato
+                            empleados en automoción.</p>
 
-                        <p>Nuestro lavado básico incluye los siguientes productos y servicios:</p>
-                        <ul>
-                            <li class="lista">Pulverización con desinfectante para carrocería y llantas.</li>
-                            <li class="lista">Pre lavado con químico anti mosquitos.</li>
-                            <li class="lista">Pre lavado con pistola de agua a alta presión.</li>
-                            <li class="lista">Aspirado del suelo y los asientos</li>
-                            <li class="lista">Limpieza del tablero</li>
-                        </ul>
                         <div>
-                            <p class="precio">17€ <span>(Coche normal)</span></p>
+                            <p class="precio">25€ <span>(Por faro)</span></p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +59,7 @@
         <section class="galeria_resultados">
             <h3>Resultados de nuestros servicios</h3>
             <?php
-                include '../../galerias_resultados.php'
+            include '../../galerias_resultados.php'
             ?>
         </section>
     </main>

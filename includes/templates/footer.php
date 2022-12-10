@@ -2,18 +2,18 @@
     <div>
         <h2>Menu</h2>
         <nav class="navegacion mostrar">
-            <a href="inicio.php">Inicio</a>
-            <a href="nosotros.php">Sobre Nosotros</a>
-            <a href="servicios.php">Servicios</a>
-            <a href="galeria.php">Galería</a>
-            <a href="contacto.php">Contacto</a>
+            <a href="/inicio.php">Inicio</a>
+            <a href="/nosotros.php">Sobre Nosotros</a>
+            <a href="/servicios.php">Servicios</a>
+            <a href="/galeria.php">Galería</a>
+            <a href="/contacto.php">Contacto</a>
         </nav>
     </div>
 
     <div>
         <h2>Contacto</h2>
         <p>643 70 47 82</p>
-        <p>correo@gmail.com</p>
+        <p>automirkam@yahoo.es</p>
     </div>
 
     <div>
@@ -40,7 +40,7 @@
 
     </div>
 
-    <p class="derechos">Todos los derechos reservados</p>
+    <p class="derechos">Todos los derechos reservados KKamenov</p>
 
 
 

@@ -34,21 +34,17 @@
                     <div class="descripcion-servicio">
                         <H2>Pulido de pintura</H2>
                         <hr>
-                        <p>Este servicio ofrece un lavado exterior, donde no hace falta pedir cita previa.
-                            Por los servicios que se ofrecen se ha deseñado un precio muy económico en el qual
-                            nos centramos en limpiar su coche cuidadosamente y dejarlo lo mas limpio
-                            y brillante posible tanto por fuera como por dentro</p>
-
-                        <p>Nuestro lavado básico incluye los siguientes productos y servicios:</p>
-                        <ul>
-                            <li class="lista">Pulverización con desinfectante para carrocería y llantas.</li>
-                            <li class="lista">Pre lavado con químico anti mosquitos.</li>
-                            <li class="lista">Pre lavado con pistola de agua a alta presión.</li>
-                            <li class="lista">Aspirado del suelo y los asientos</li>
-                            <li class="lista">Limpieza del tablero</li>
-                        </ul>
+                        <p>Este servicio ofrece un pulido completo de su vehículo, donde <span class="negrita">hace falta pedir cita previa.</span>
+                            Consiste en remover un mínimo de espesor en la pintura del vehículo, para eliminar rallas, defectos e
+                            imperfecciones a fondo, dejando una superficie limpia y pareja. Es ideal para eliminar cera antigua,
+                            arañazos e imperfecciones en la pintura del coche, y el resultado es una capa de pintura ideal, rejuvenecida
+                            y brillante como si se tratara de un coche nuevo.
+                        </p>
+                        <p>El pulido se realiza con una máquina especial y esponjas de diversos grosores que van esparciendo el producto 
+                            sobre la superficie del vehículo hasta lograr el acabado deseado, normalmente en tres etapas. Una vez que 
+                            obtenemos el pulido ideal el vehículo lucirá como nuevo.</p>
                         <div>
-                            <p class="precio">140€ <span>(Coche normal)</span></p>
+                            <p class="precio">150€ <span>(Coche normal)</span></p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +57,7 @@
         <section class="galeria_resultados">
             <h3>Resultados de nuestros servicios</h3>
             <?php
-                include '../../galerias_resultados.php'
+            include '../../galerias_resultados.php'
             ?>
         </section>
     </main>

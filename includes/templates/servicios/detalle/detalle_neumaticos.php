@@ -34,21 +34,19 @@
                     <div class="descripcion-servicio">
                         <H2>Cambio de neumáticos</H2>
                         <hr>
-                        <p>Este servicio ofrece un lavado exterior, donde no hace falta pedir cita previa.
-                            Por los servicios que se ofrecen se ha deseñado un precio muy económico en el qual
-                            nos centramos en limpiar su coche cuidadosamente y dejarlo lo mas limpio
-                            y brillante posible tanto por fuera como por dentro</p>
+                        <p>El montaje de neumáticos es un servicio muy importante que se debe realizar correctamente y por profesionales
+                            con las máquinas adecuadas ya que es primordial para la seguridad del vehículo.</p>
 
-                        <p>Nuestro lavado básico incluye los siguientes productos y servicios:</p>
-                        <ul>
-                            <li class="lista">Pulverización con desinfectante para carrocería y llantas.</li>
-                            <li class="lista">Pre lavado con químico anti mosquitos.</li>
-                            <li class="lista">Pre lavado con pistola de agua a alta presión.</li>
-                            <li class="lista">Aspirado del suelo y los asientos</li>
-                            <li class="lista">Limpieza del tablero</li>
-                        </ul>
+                        <p> Para realizar un correcto y completo montaje del neumático, siempre se tiene que
+                            hacer un equilibrado preciso del neumático para evitar vibraciones al circular
+                            (las vibraciones disminuyen el contacto con la carretera pudiendo provocar un
+                            accidente), poner una nueva válvula de inflado para evitar perdidas de aire por
+                            el deterioro que pueda haber sufrido la anterior, y realizar la comprobación de
+                            la presión del aire según lo que marque el vehículo para inflarlos con lo establecido
+                            por el fabricante del vehículo.</p>
+
                         <div>
-                            <p class="precio">17€ <span>(Coche normal)</span></p>
+                            <p class="precio">15€<span>(Por rueda)</span></p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +59,7 @@
         <section class="galeria_resultados">
             <h3>Resultados de nuestros servicios</h3>
             <?php
-                include '../../galerias_resultados.php'
+            include '../../galerias_resultados.php'
             ?>
         </section>
     </main>

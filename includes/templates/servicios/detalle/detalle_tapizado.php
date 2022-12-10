@@ -39,7 +39,6 @@
                         <div>
                             <p class="precio">120€ <span>(Coche normal)</span></p>
                         </div>
-                        <p>A continuación puedes los resutados de nuestros servivios.</p>
                     </div>
                 </div>
                 <div>

@@ -34,21 +34,18 @@
                     <div class="descripcion-servicio">
                         <H2>Preparación ITV</H2>
                         <hr>
-                        <p>Este servicio ofrece un lavado exterior, donde no hace falta pedir cita previa.
-                            Por los servicios que se ofrecen se ha deseñado un precio muy económico en el qual
-                            nos centramos en limpiar su coche cuidadosamente y dejarlo lo mas limpio
-                            y brillante posible tanto por fuera como por dentro</p>
+                        <p>Este servicio ofrece una inspección completa de su vehículo con el fin de tener éxito en la ITV y evitar problemas.</p>
 
-                        <p>Nuestro lavado básico incluye los siguientes productos y servicios:</p>
+                        <p>En esta revición se inspeccionaran los siguientes sistemas y elementos del coche:</p>
                         <ul>
-                            <li class="lista">Pulverización con desinfectante para carrocería y llantas.</li>
-                            <li class="lista">Pre lavado con químico anti mosquitos.</li>
-                            <li class="lista">Pre lavado con pistola de agua a alta presión.</li>
-                            <li class="lista">Aspirado del suelo y los asientos</li>
-                            <li class="lista">Limpieza del tablero</li>
+                            <li class="lista">Los frenos</li>
+                            <li class="lista">Las luces</li>
+                            <li class="lista">Las ruedas</li>
+                            <li class="lista">El sistema de gases y emiciones</li>
+                            <li class="lista">El aceite del motor</li>
                         </ul>
                         <div>
-                            <p class="precio">17€ <span>(Coche normal)</span></p>
+                            <p class="precio">30€ <span>(Coche normal)</span></p>
                         </div>
                     </div>
                 </div>
