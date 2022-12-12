@@ -7,7 +7,7 @@
   background-color: $grisOscuro;
   opacity: 0.9;
   margin: 0;
-  padding: 2rem;
+  padding: 1rem;
   z-index: 1;
 
   &.fijo {
@@ -47,7 +47,7 @@
   }
 }
 .bodyinicio {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
     url(../../../build/img/fondo_inicio1.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@
       img {
         justify-content: space-between;
         width: 100%;
-        max-height: 8rem;
+        max-height: 5rem;
       }
     }
   }

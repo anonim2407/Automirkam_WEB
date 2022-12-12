@@ -3,7 +3,7 @@
 
     <div class="barra-horizontal">
         <a class="logo" href="/index.php">
-            <img src="/build/img/logo_blanco.webp" alt="Logotipo del autolavado" />
+            <img  src="/build/img/logo_blanco.webp" alt="Logotipo del autolavado" />
         </a>
 
 

@@ -7,7 +7,7 @@
             <circle cx="12" cy="12" r="9" />
             <polyline points="12 7 12 12 15 15" />
           </svg>
-          <p>Lunes a Vienres: 9:00h - 13:30h <br>14.30h - 19.00h</p>
+          <p>Lunes a Vienres: 9:00h - 13:30h <br>14:30h - 19:00h</p>
           <p>Sabado: 9:00h - 13:00h</p>
         </div>
       </a>
@@ -22,7 +22,7 @@
             <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
           </svg>
           <p>643 70 47 82</p>
-          <p>correo@gmail.com</p>
+          <p>automirkam@yahoo.es</p>
         </div>
       </a>
     </div>

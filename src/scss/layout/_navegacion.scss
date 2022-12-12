@@ -5,7 +5,9 @@
   height: 0;
   transition: visibility 0.3s ease-in-out, opacity 0.5s linear,
     height 0.5s linear;
-  margin-top: 2rem;
+
+
+
   @include tabletL {
     display: flex;
     align-items: center; //centrado verticalmente
@@ -61,12 +63,9 @@
   @include tabletL {
     display: none;
   }
-
-  img {
-    width: 5rem;
-  }
 }
 .mostrar {
+  margin-top: 2rem;
   visibility: visible;
   opacity: 1;
   height: auto;

@@ -32,7 +32,11 @@
             <legend>¿Que desea saber?</legend>
             <textarea id="mensaje" placeholder="Describe tu duda aquí" cols="30" rows="10" name="mensaje"></textarea>
         </fieldset>
-        <input type="submit" id="button" value="Enviar" class="boton-enviar" />
+        <button type="submit" id="button" value="Enviar" class="boton-enviar">
+            <span class="text">Enviar</span>
+            <img class="icons" src="/build/img/tick.svg" alt="">
+        </button>
+       
     </form>
 
     <div class="contenedor informacion-esencial">
@@ -45,11 +49,10 @@
     </div>
 </section>
 
-<script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 <script type="text/javascript">
-  emailjs.init('MmCJ5RZxwPk3aX7kk')
+    emailjs.init('MmCJ5RZxwPk3aX7kk')
 </script>
 
 <script>

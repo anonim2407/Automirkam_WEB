@@ -5,68 +5,60 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  p { 
+  p {
     padding-bottom: 5rem;
     font-size: 1.4rem;
     color: $blanco;
     text-align: center;
   }
-  h2{
+  h2 {
     margin: 0;
-   padding-top:15rem;
+    padding-top: 15rem;
     font-weight: bold;
     text-transform: uppercase;
     color: $azul;
-
   }
   .formulario {
-    background-color: opacity($color: $azul),0.4;
+    display: flex;
+    flex-direction: column;
+    background-color: opacity($color: $azul), 0.4;
     border-radius: 3rem;
     margin: auto;
-   
+
     padding: 5rem;
     max-width: 60rem;
-    fieldset{
-        color: $grisClaro;
-        font-weight: bolder;
-        border: 2px solid $grisClaro;
-      
-    label{
+    fieldset {
+      color: $grisClaro;
+      font-weight: bolder;
+      border: 2px solid $grisClaro;
 
+      label {
         color: $blanco;
-        font-weight: bold; 
-         display: block;
-    }
+        font-weight: bold;
+        display: block;
+      }
     }
     input,
-    textarea{
-        border: none;
-        background-color: transparent;
-        background-color: $grisOscuro;
-        width: 100%;
-        border-radius: 1rem;
-        padding: 1rem 1rem;
-        color: $blanco;
+    textarea {
+      border: none;
+      background-color: transparent;
+      background-color: $grisOscuro;
+      width: 100%;
+      border-radius: 1rem;
+      padding: 1rem 1rem;
+      color: $blanco;
     }
-    .boton-enviar{
-        margin-top: 2rem;
-        &:hover{
-            cursor: pointer;
-            background-color: $azul;
 
-            
-        }
-    }
     .forma-contacto {
-        max-width: 30rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: $negro;
-      }
+      max-width: 30rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $negro;
+    }
   }
 }
-.alerta-error{
+.alerta-error {
   text-align: center;
   text-transform: uppercase;
   background-color: $rojo;
@@ -74,5 +66,39 @@
   color: $blanco;
   margin-top: 2rem;
   margin-bottom: 2rem;
-} 
+}
 
+//Boton enviar animacion
+.boton-enviar {
+  margin: 0 auto;
+  
+  margin-top: 2rem;
+  width: 100%;
+  height: 5rem;
+  position: relative;
+  transition: width 0.5s, border-radius 0.5s;
+  * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.25s;
+  }
+  .icons {
+    width: 4rem;
+    opacity: 0;
+  }
+  &:focus{
+    width:5rem;
+    background-color: #44c08a;
+    border-radius:50%;
+    border:none
+  }
+  &:focus .text{
+    opacity: 0;
+  }
+  &:focus .icons{
+    opacity: 1;
+    transition-delay: .5s;
+  }
+}
