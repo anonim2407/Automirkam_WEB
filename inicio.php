@@ -30,7 +30,7 @@
 
     </section>
 
-    <section class="contenedor servicios-in barra-fija">
+    <section id="an1" class="contenedor servicios-in barra-fija">
       <div class="descripcion-servicios-in">
         <h4>Servicios de lavado generales</h4>
         <h2>Los <span>mejores</span> servicios para una única experiencia </h2>
@@ -59,22 +59,22 @@
 
 
 
-    <section class="contenedor servicio-especiales ">
+    <section id="an2" class="contenedor servicio-especiales ">
       <h4>Servicios especiales</h4>
 
-      <a class="especiales-tapizados" href="/includes/templates/servicios/detalle/detalle_tapizado.php">
+      <a id="an3" class="especiales-tapizados" href="/includes/templates/servicios/detalle/detalle_tapizado.php">
         <h2>Tapizados</h2>
         <p>Saber más</p>
       </a>
 
 
-      <a class="especiales-puliment" href="/includes/templates/servicios/detalle/detalle_pulido_faros.php">
+      <a id="an4" class="especiales-puliment" href="/includes/templates/servicios/detalle/detalle_pulido_faros.php">
         <h2>Pulimento</h2>
         <p>Saber más</p>
       </a>
 
 
-      <a class="especiales-neumaticos" href="/includes/templates/servicios/detalle/detalle_neumaticos.php">
+      <a id="an5" class="especiales-neumaticos" href="/includes/templates/servicios/detalle/detalle_neumaticos.php">
         <h2>Cambio de neumáticos</h2>
         <p>Saber más</p>
       </a>
@@ -93,8 +93,9 @@
   include 'includes/templates/footer.php'
   ?>
 
-
   <script src="/src/js/app.js"></script>
+
+  <script src="/src/js/inicio.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
       de cada cliente. Te esperamos en nuestro autolavado en Granollers</p>
   </div>
 
-  <article class="servicio">
+  <article class="servicio" id="ap1">
     <div class="titulo-servicio">
       <h2>Lavado exterior</h2>
     </div>
@@ -26,7 +26,7 @@
 
   </article>
 
-  <article class="servicio">
+  <article class="servicio" id="ap1">
     <div class="titulo-servicio">
       <h2>Lavado básico</h2>
     </div>

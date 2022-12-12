@@ -1,8 +1,9 @@
 <section class="contenedor ofertas" id="ofertas">
-    <h4>Martes LOCO</h4>
-    <h2>Todos los <span>martes</span> con tu descuento </h2>
+    <div>
+        <h4>Martes LOCO</h4>
+        <h2>Todos los <span>martes</span> con tu descuento </h2>
     </div>
-    <div class="descripcion-servicios-in servicios">
+    <div class="descripcion-servicios-in servicios" id="ofertas2">
 
 
 
@@ -44,5 +45,5 @@
             </div>
 
         </article>
-
+    </div>
 </section>

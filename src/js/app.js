@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 function iniciarApp() {
     eventListeners();
     navegacionFija();
-    scrollNav()
-
+    scrollNav();
+    animacionScroll();
 
 }
 
@@ -54,6 +54,39 @@ function navegacionResponsive() {
 
     navegacion.classList.toggle('mostrar')
 }
+
+function animacionScroll() {
+    const ap1 = document.getElementById('lavado');
+    const ap2 = document.getElementById('integrales');
+    const ap3 = document.getElementById('especiales');
+    const ap4 = document.getElementById('ofertas');
+    const ap5 = document.getElementById('ofertas2')
+    const ap6 = document.getElementById('imagen_galeria')
+    
+    const cargarApartados = (entradas, observador) => {
+        entradas.forEach((entrada) => {
+            if (entrada.isIntersecting) {
+                entrada.target.classList.add('visible');
+            }else{
+                entrada.target.classList.remove('visible');
+            }
+        });
+    }
+    const observador = new IntersectionObserver(cargarApartados, {
+        root: null,
+        rootMargin: '-150px 0px 0px 0px',
+        threshold: 0.1 //para regular cuando aparezca la imagen
+    });
+
+    observador.observe(ap1);
+    observador.observe(ap2);
+    observador.observe(ap3);
+    observador.observe(ap4);
+    observador.observe(ap5);
+    observador.observe(ap6);
+}
+
+
 
 
 

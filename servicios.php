@@ -11,8 +11,8 @@
 
 <body>
 
-<?php
-      include 'includes/templates/whatsapp.php'
+  <?php
+  include 'includes/templates/whatsapp.php'
   ?>
 
   <header class="header">
@@ -29,21 +29,29 @@
     include 'includes/templates/servicios/navegacion_servicios.php'
     ?>
 
-    <?php
-    include 'includes/templates/servicios/servicios_lavados.php'
-    ?>
 
-    <?php
-    include 'includes/templates/servicios/servivios_integrales.php'
-    ?>
+      <?php
+      include 'includes/templates/servicios/servicios_lavados.php'
+      ?>
 
-    <?php
-    include 'includes/templates/servicios/servicios_especiales.php'
-    ?>
 
-    <?php
-    include 'includes/templates/servicios/servicios_ofertas.php'
-    ?>
+
+      <?php
+      include 'includes/templates/servicios/servivios_integrales.php'
+      ?>
+
+
+
+      <?php
+      include 'includes/templates/servicios/servicios_especiales.php'
+      ?>
+
+
+
+      <?php
+      include 'includes/templates/servicios/servicios_ofertas.php'
+      ?>
+
 
   </main>
   <?php

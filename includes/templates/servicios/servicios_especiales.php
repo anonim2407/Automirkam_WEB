@@ -3,10 +3,10 @@
     <h4>Servicios especiales</h4>
     <h2>Los <span>mejores</span> servicios para una única experiencia </h2>
     <p>Os ofrecemos una gran variedad de servicios especiales para cuidar su vehículo y mantenerlo en perfectas condiciones.
-      Para este servicio <span class="negrita">hace falta pedir cita previa.</span> 
+      Para este servicio <span class="negrita">hace falta pedir cita previa.</span>
       Te esperamos en nuestro autolavado en Granollers</p>
   </div>
-<article class="servicio">
+  <article class="servicio">
     <div class="titulo-servicio">
       <h2>Tapizado</h2>
     </div>
@@ -18,7 +18,7 @@
     </picture>
     <div>
       <div class="precio">
-      <p>Desde</p>
+        <p>Desde</p>
         <h3>120€</h3>
       </div>
       <a class="boton-verde" href="/includes/templates/servicios/detalle/detalle_tapizado.php">Ver mas</a>
@@ -43,7 +43,7 @@
 
       <a class="boton-verde" href="/includes/templates/servicios/detalle/detalle_pulido_faros.php">Ver mas</a>
     </div>
-  
+
   </article>
 
 
