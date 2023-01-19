@@ -10,8 +10,8 @@
 </head>
 
 <body>
-<?php
-      include 'includes/templates/whatsapp.php'
+  <?php
+  include 'includes/templates/whatsapp.php'
   ?>
   <header class="header">
     <?php
@@ -19,21 +19,27 @@
     ?>
   </header>
   <main>
-
-
-    <?php
-    include 'includes/templates/formulario.php' ;
-    ?>
+    <section class="header-nosotros">
+      <h1>Contacto</h1>
+    </section>
 
 
 
+    <div class="contenedor informacion-esencial">
+      <a href="tel:+34643704782">
+        <p class="telefono">643 70 47 82</p>
+      </a>
+      <a class="correo" href="mailto:automirkam@yahoo.es">
+        <p>automirkam@yahoo.es</p>
+      </a>
+    </div>
   </main>
 
   <?php
-    include 'includes/templates/footer.php' ;
-    ?>
+  include 'includes/templates/footer.php';
+  ?>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 

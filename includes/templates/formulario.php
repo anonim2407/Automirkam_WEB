@@ -2,6 +2,8 @@
     <h2>¿Tienes alguna duda?</h2>
     <p>Rellena el cuestionario y la solucionaremos en un instante</p>
     <form class="formulario contenedor" id="form">
+
+
         <fieldset>
             <legend>Información personal</legend>
 
@@ -28,16 +30,35 @@
                 <input name="contacto" type="radio" value="email" id="contactar-email" name="contacto" />
             </div>
         </fieldset>
+
+
         <fieldset>
             <legend>¿Que desea saber?</legend>
             <textarea id="mensaje" placeholder="Describe tu duda aquí" cols="30" rows="10" name="mensaje"></textarea>
         </fieldset>
+
+
+        <fieldset class="politica_privacidad">
+            <div class="checkbox">
+                <input id="politica" name="politica" type="checkbox">
+                <span>Política de privacidad</span>
+            </div>
+            <p>He leído y acepto el <a class="negrita" href="/inicio.php">aviso legal</a> y condiciones de uso del portal,
+                <a class="negrita" href="/politica_privacidad.php">la política de privacidad</a> y las <a class="negrita" href="/inicio.php">condiciones generales de contratación.</a>
+            </p>
+        </fieldset>
+
+        
         <button type="submit" id="button" value="Enviar" class="boton-enviar">
             <span class="text">Enviar</span>
-            <img class="icons" src="/build/img/tick.svg" alt="">
         </button>
-       
+
     </form>
+
+
+
+
+
 
     <div class="contenedor informacion-esencial">
         <a href="tel:+34643704782">
@@ -49,34 +70,36 @@
     </div>
 </section>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 <script type="text/javascript">
     emailjs.init('MmCJ5RZxwPk3aX7kk')
-</script>
+</script> -->
 
-<script>
+<!-- <script>
     const btn = document.getElementById("button");
 
-    document
-        .getElementById("form")
-        .addEventListener("submit", function(event) {
-            event.preventDefault();
 
-            btn.value = "Enviando...";
+        document
+            .getElementById("form")
+            .addEventListener("submit", function(event) {
+                event.preventDefault();
 
-            const serviceID = "default_service";
-            const templateID = "template_kigbiz4";
+                btn.value = "Enviando...";
 
-            emailjs.sendForm(serviceID, templateID, this).then(
-                () => {
-                    btn.value = "Enviar";
-                    alert("Enviado!");
-                },
-                (err) => {
-                    btn.value = "ERROR";
-                    alert(JSON.stringify(err));
-                }
-            );
-        });
-</script>
+                const serviceID = "default_service";
+                const templateID = "template_kigbiz4";
+
+                emailjs.sendForm(serviceID, templateID, this).then(
+                    () => {
+                        btn.value = "Enviar";
+                        alert("Enviado!");
+                    },
+                    (err) => {
+                        btn.value = "ERROR";
+                        alert(JSON.stringify(err));
+                    }
+                );
+            });
+    
+</script>  -->

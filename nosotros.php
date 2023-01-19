@@ -10,8 +10,8 @@
 </head>
 
 <body>
-<?php
-      include 'includes/templates/whatsapp.php'
+  <?php
+  include 'includes/templates/whatsapp.php'
   ?>
   <header class="header">
     <?php

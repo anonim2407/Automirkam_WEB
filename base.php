@@ -18,8 +18,9 @@
         include 'includes/templates/header.php'
         ?>
     </header>
-    <main>
-        <h3>Base</h3>
+    <main class="contenedor">
+
+
     </main>
 
 

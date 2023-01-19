@@ -82,9 +82,9 @@
     </section>
 
 
-    <?php
-    include 'includes/templates/formulario.php'
-    ?>
+    <!-- <?php
+    //include 'includes/templates/formulario.php'
+    ?> -->
 
 
   </main>
