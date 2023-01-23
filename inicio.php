@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Autorentat Exprés - Inicio</title>
   <meta name="description" content="Página principal con algunos de los servicios que ofrecemos">
   <link rel="stylesheet" href="build/css/app.css" />
 </head>

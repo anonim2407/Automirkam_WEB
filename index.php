@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="build/css/app.css" />
     <meta name="description" content="Página de inicio con barra de navegación">
-    <title>Autolavado Exprés Granollers</title>
+    <title>Lavado de coches en Granollers - AUTORENTAT EXPRÉS GRANOLLERS</title>
   </head>
   <body  class="bodyinicio">
     <header class=" header-inicio">
