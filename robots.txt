@@ -1,15 +1,6 @@
-User-agent: Googlebot
-Disallow:
-Crawl-delay: 300 
- 
-User-agent: bingbot
-Disallow:
-Crawl-delay: 300 
- 
-User-agent: msnbot
-Disallow:
-Crawl-delay: 300 
- 
-User-agent: *
-Disallow: /
-Crawl-delay: 300
+User-Agent: *
+Disallow: /base.php/
+Disallow: /login.php/
+Disallow: /admin/
+
+Sitemap: https://autolavadoexpres.es/index.php
