@@ -14,7 +14,7 @@
     <picture>
       <source srcset="/build/img/iconos/tapizado-techo.webp" type="image/webp">
       <source srcset="/build/img/iconos/tapizado-techo.png" type="image/png">
-      <img src="/build/img/iconos/tapizado-techo.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/tapizado-techo.png" alt="Icono tapizado">
     </picture>
     <div>
       <div class="precio">
@@ -33,7 +33,7 @@
     <picture>
       <source srcset="/build/img/iconos/faro.webp" type="image/webp">
       <source srcset="/build/img/iconos/faro.png" type="image/png">
-      <img src="/build/img/iconos/faro.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/faro.png" alt="Icono faros">
     </picture>
     <div>
       <div class="precio">
@@ -55,7 +55,7 @@
     <picture>
       <source srcset="/build/img/iconos/pulido-coche.webp" type="image/webp">
       <source srcset="/build/img/iconos/pulido-coche.png" type="image/png">
-      <img src="/build/img/iconos/pulido-coche.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/pulido-coche.png" alt="Icono pulido coche">
     </picture>
     <div>
       <div class="precio">
@@ -76,7 +76,7 @@
     <picture>
       <source srcset="/build/img/iconos/rueda.webp" type="image/webp">
       <source srcset="/build/img/iconos/rueda.png" type="image/png">
-      <img src="/build/img/iconos/rueda.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/rueda.png" alt="Icono reudas">
     </picture>
     <div>
       <div class="precio">
@@ -97,7 +97,7 @@
     <picture>
       <source srcset="/build/img/iconos/mecanico.webp" type="image/webp">
       <source srcset="/build/img/iconos/mecanico.png" type="image/png">
-      <img src="/build/img/iconos/mecanico.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/mecanico.png" alt="Icono mecanico">
     </picture>
     <div>
       <div class="precio">

@@ -14,7 +14,7 @@
             <picture>
                 <source srcset="/build/img/iconos/wash1.webp" type="image/webp">
                 <source srcset="/build/img/iconos/wash1.png" type="image/png">
-                <img src="/build/img/iconos/wash1.png" alt="Imagen logo Nosotros">
+                <img src="/build/img/iconos/wash1.png" alt="Icono oferta lavado básico">
             </picture>
             <div>
                 <div class="precio con-oferta">
@@ -33,7 +33,7 @@
             <picture>
                 <source srcset="/build/img/iconos/wash2.webp" type="image/webp">
                 <source srcset="/build/img/iconos/wash2.png" type="image/png">
-                <img src="/build/img/iconos/wash2.png" alt="Imagen logo Nosotros">
+                <img src="/build/img/iconos/wash2.png" alt="Icono oferta lavado completo">
             </picture>
             <div>
                 <div class="precio con-oferta">

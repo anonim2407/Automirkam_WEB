@@ -51,19 +51,19 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="/build/img/res1.webp" />
+          <img src="/build/img/res1.webp" alt="Resultado 1" />
         </div>
         <div class="swiper-slide">
-          <img src="/build/img/res2.webp" />
+          <img src="/build/img/res2.webp" alt="Resultado 1" />
         </div>
         <div class="swiper-slide">
-          <img src="/build/img/res3.webp" />
+          <img src="/build/img/res3.webp" alt="Resultado 1" />
         </div>
         <div class="swiper-slide">
-          <img src="/build/img/res4.webp" />
+          <img src="/build/img/res4.webp" alt="Resultado 1" />
         </div>
         <div class="swiper-slide">
-          <img src="/build/img/res5.webp" />
+          <img src="/build/img/res5.webp" alt="Resultado 1" />
         </div>
       </div>
       <div class="swiper-pagination"></div>

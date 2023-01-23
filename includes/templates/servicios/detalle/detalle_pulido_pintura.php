@@ -27,7 +27,7 @@
                 </div>
                 <div class="descripcion-contenido">
                     <div>
-                        <img src="/build/img/pulimento_coches_inicio.webp" alt="Imagen Lavado Basico">
+                        <img src="/build/img/pulimento_coches_inicio.webp" alt="Imagen Pulido Pintura">
                         <a class="volver" href="/servicios.php">↪ Volver a servicios</a>
                     </div>
 

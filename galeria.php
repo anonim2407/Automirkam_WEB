@@ -35,11 +35,12 @@ $resultadoConsulta = mysqli_query($db, $query);
     <section class="header-galeria">
       <h1>Nuestra galería</h1>
     </section>
+    <h2>Galería de resultados gracias a los servicios de Autolavado Exprés Granollers</h2>
     <section class="galeria contenedor">
       <?php while ($propiedad = mysqli_fetch_assoc($resultadoConsulta)) : ?>
         <article>
           <h2> <?php echo $propiedad['titulo'] ?> </h2>
-          <img src="/admin/imagenes/<?php echo $propiedad['imagen'] ?>" alt="">
+          <img src="/admin/imagenes/<?php echo $propiedad['imagen'] ?>" alt="Fotografia  <?php echo $propiedad['titulo'] ?>">
         </article>
       <?php endwhile; ?>
 

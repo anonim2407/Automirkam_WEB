@@ -14,7 +14,7 @@
     <picture class="servicio-imagen">
       <source srcset="/build/img/iconos/lavado-de-autos.webp" type="image/webp">
       <source srcset="/build/img/iconos/lavado-de-autos.png" type="image/png">
-      <img src="/build/img/iconos/lavado-de-autos.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/lavado-de-autos.png" alt="Icono lavado exterior">
     </picture>
     <div>
       <div class="precio">
@@ -33,7 +33,7 @@
     <picture>
       <source srcset="/build/img/iconos/wash1.webp" type="image/webp">
       <source srcset="/build/img/iconos/wash1.png" type="image/png">
-      <img src="/build/img/iconos/wash1.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/wash1.png" alt="Icono lavado básico">
     </picture>
     <div>
       <div class="precio">
@@ -52,7 +52,7 @@
     <picture>
       <source srcset="/build/img/iconos/wash2.webp" type="image/webp">
       <source srcset="/build/img/iconos/wash2.png" type="image/png">
-      <img src="/build/img/iconos/wash2.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/wash2.png" alt="Icono lavado completo">
     </picture>
     <div>
       <div class="precio">
@@ -71,7 +71,7 @@
     <picture>
       <source srcset="/build/img/iconos/wash3.webp" type="image/webp">
       <source srcset="/build/img/iconos/wash3.png" type="image/png">
-      <img src="/build/img/iconos/wash3.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/wash3.png" alt="Icono lavado VIP">
     </picture>
     <div>
       <div class="precio">

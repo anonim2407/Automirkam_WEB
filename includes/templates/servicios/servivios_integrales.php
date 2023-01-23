@@ -15,7 +15,7 @@
     <picture>
       <source srcset="/build/img/iconos/seat.webp" type="image/webp">
       <source srcset="/build/img/iconos/seat.png" type="image/png">
-      <img src="/build/img/iconos/seat.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/seat.png" alt="Icono lavado de asientos">
     </picture>
     </div>
     <div>
@@ -35,7 +35,7 @@
     <picture>
       <source srcset="/build/img/iconos/vacuum.webp" type="image/webp">
       <source srcset="/build/img/iconos/vacuum.png" type="image/png">
-      <img src="/build/img/iconos/vacuum.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/vacuum.png" alt="Icono lavado de asientos + completo">
     </picture>
     </div>
     <div>
@@ -55,7 +55,7 @@
     <picture>
       <source srcset="/build/img/iconos/interior.webp" type="image/webp">
       <source srcset="/build/img/iconos/interior.png" type="image/png">
-      <img src="/build/img/iconos/interior.png" alt="Imagen logo Nosotros">
+      <img src="/build/img/iconos/interior.png" alt="Icono lavado integral completo">
     </picture>
     </div>
     <div>

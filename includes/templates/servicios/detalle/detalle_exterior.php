@@ -27,7 +27,7 @@
                 </div>
                 <div class="descripcion-contenido">
                     <div>
-                        <img src="/build/img/lavado_exterior.webp" alt="Imagen Lavado Basico">
+                        <img src="/build/img/lavado_exterior.webp" alt="Imagen Lavado Exterior">
                         <a class="volver" href="/servicios.php">↪ Volver a servicios</a>
                     </div>
 
