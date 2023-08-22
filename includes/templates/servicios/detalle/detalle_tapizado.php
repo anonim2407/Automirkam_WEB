@@ -37,7 +37,7 @@
                         <p>¿Tienes un techo descolgado o caído de su coche y no sabes que hacer? En Autolavado Expres nos ocupamos de dejarlo como nuevo.
                             Para este tipo de servicio es necesaria cita previa
                         <div>
-                            <p class="precio">145€ <span>(Coche normal)</span></p>
+                            <p class="precio">135€ <span>(Coche normal)</span></p>
                         </div>
                     </div>
                 </div>
