@@ -19,7 +19,7 @@
     <div>
       <div class="precio">
         <p>Desde</p>
-        <h3>120€</h3>
+        <h3>145€</h3>
       </div>
       <a class="boton-verde" href="/includes/templates/servicios/detalle/detalle_tapizado.php">Ver mas</a>
     </div>

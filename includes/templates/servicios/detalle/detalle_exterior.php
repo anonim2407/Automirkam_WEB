@@ -47,7 +47,7 @@
                             <li class="lista"><span class="negrita">Secado</span> en profundidad</li>
                         </ul>
                         <div>
-                            <p class="precio">6€ <span>(Coche normal)</span></p>
+                            <p class="precio">8-12€ <span>(Coche normal)</span></p>
                         </div>
                     </div>
                 </div>

@@ -19,28 +19,9 @@
     <div>
       <div class="precio">
         <p>Desde</p>
-        <h3>6€</h3>
+        <h3>8-12€</h3>
       </div>
       <a class="boton-verde lavado-exterior" href="/includes/templates/servicios/detalle/detalle_exterior.php">Ver mas</a>
-    </div>
-
-  </article>
-
-  <article class="servicio" id="ap1">
-    <div class="titulo-servicio">
-      <h2>Lavado básico</h2>
-    </div>
-    <picture>
-      <source srcset="/build/img/iconos/wash1.webp" type="image/webp">
-      <source srcset="/build/img/iconos/wash1.png" type="image/png">
-      <img src="/build/img/iconos/wash1.png" alt="Icono lavado básico">
-    </picture>
-    <div>
-      <div class="precio">
-        <p>Desde</p>
-        <h3>17€</h3>
-      </div>
-      <a class="boton-verde" href="/includes/templates/servicios/detalle/detalle_basico.php">Ver mas</a>
     </div>
 
   </article>
